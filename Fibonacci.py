@@ -1,12 +1,15 @@
-'''
-Created on Nov 21, 2014
-
-@author: Rick
-'''
-# the sum of two elements defines the next
-a, b = 0, 1
-while b<10:
-    print b
-    a, b = b, a+b
+def fib(n):
+    ''' Print fibonacci up to n. The sum of two elements defines the next.
+    Created on Nov 21, 2014
     
-#stopped at 4.2 for statements
+    @author: Rick
+    '''
+    a, b = 0, 1
+    while a < n:
+        print a
+        a, b = b, a+b
+        
+fib(2000)
+
+    
+
